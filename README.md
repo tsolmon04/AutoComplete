@@ -1,6 +1,6 @@
 # Autocomplete Functionality Implementation
 
-This project is from ESC190 that provides an efficient implementation of autocomplete functionality that quickly retrieves the top matching terms based on a query string. The task is to process large files of terms and their associated importance weights, sort the terms lexicographically, and efficiently retrieve the best matches for a given query string.
+This project provides an efficient implementation of autocomplete functionality that quickly retrieves the top matching terms based on a query string. The task is to process large files of terms and their associated importance weights, sort the terms lexicographically, and efficiently retrieve the best matches for a given query string.
 
 ## Features
 
@@ -51,8 +51,3 @@ If the query string is `"Eng"`, the system will:
 2. Extract the matching terms: `"Engineering"`, `"English"`, and `"EngSci"`.
 3. Sort these terms by their weights: `"EngSci"`, `"Engineering"`, `"English"`.
 4. Return the top results based on the weight order.
-
-
-## Acknowledgments
-
-- All credit goes to the course instructor Michael Guerzhoy
